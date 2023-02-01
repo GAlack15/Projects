@@ -39,3 +39,5 @@ Last   First   Middle      Phone          _Email_               Major Taking    
 ------------------------------------------------------------------------------------------------------------------------
 
 lackie  ,gabriel ,a      ,414 414 4444,  ,gabelackie@yahoo.com,   cis         ,yes         3.0   
+
+handler ,john    ,a      ,515 555 5555,  ,john@yahoo.com,   2           ,2           2.0   

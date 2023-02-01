@@ -34,3 +34,8 @@ Lackie  ,MIlena  ,M      ,616 206 6003,  ,anemail.com ,   cis         ,yes      
 
 Last   First   Middle      Phone          _Email_               Major Taking        _GPA:_
 ------------------------------------------------------------------------------------------------------------------------
+
+Last   First   Middle      Phone          _Email_               Major Taking        _GPA:_
+------------------------------------------------------------------------------------------------------------------------
+
+lackie  ,gabriel ,a      ,414 414 4444,  ,gabelackie@yahoo.com,   cis         ,yes         3.0   

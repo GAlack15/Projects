@@ -1,0 +1,17 @@
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\bin\Debug\net6.0-windows\Canton Inc.exe
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\bin\Debug\net6.0-windows\Canton Inc.deps.json
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\bin\Debug\net6.0-windows\Canton Inc.runtimeconfig.json
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\bin\Debug\net6.0-windows\Canton Inc.dll
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\bin\Debug\net6.0-windows\Canton Inc.pdb
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\Canton Inc.vbproj.AssemblyReference.cache
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\Canton_Inc.Form1.resources
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\Canton Inc.vbproj.GenerateResource.cache
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\Canton Inc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\Canton Inc.AssemblyInfoInputs.cache
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\Canton Inc.AssemblyInfo.vb
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\Canton Inc.vbproj.CoreCompileInputs.cache
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\Canton Inc.dll
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\refint\Canton Inc.dll
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\Canton Inc.pdb
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\Canton Inc.genruntimeconfig.cache
+C:\Users\Gabe\Desktop\Visual Basic class grcc 2022 important files\Chap03\Canton Inc Solution\Canton Inc\obj\Debug\net6.0-windows\ref\Canton Inc.dll

@@ -1,0 +1,160 @@
+/*
+1. Add a click event handler for the button
+2. Add a 'input' event handler to the Celcius textbox
+3. Add a 'input' event handler to the Fahrenheit textbox
+4. When button is clicked, determine which textbox has a value.
+	a. If Celcius, convert to Fahrenheit
+	b. If Fahrenheit, convert to Celcius
+	c. Update the opposing textbox after converting
+	d. Update the image based on the entered value
+*/
+
+window.addEventListener("DOMContentLoaded", domLoaded);
+
+function domLoaded() {
+	
+   document.getElementById("convertButton").addEventListener("click", convertButtonClick);
+   
+   document.getElementById("cInput").addEventListener("input", clearfInput);
+   document.getElementById("fInput").addEventListener("input", clearcInput);
+   
+   /*const Celsius = document.getElementById("cInput");
+   const Fahren = document.getElementById("fInput");
+   if (Fahren > 50){
+	   document.getElementById("weatherImage").src = "cool.png";
+   }
+   else{
+	   document.getElementById("weatherImage").src = "warm.png";
+   }*/
+   
+}
+
+
+function convertButtonClick(e){
+	
+	let f = document.getElementById("fInput").value;
+	let c = document.getElementById("cInput").value;
+	let error = document.getElementById("errorMessage");
+	 if (parseFloat(f) == NaN){
+	  document.getElementById('errorMessage').innerText = " X is not a number"
+	  //error.innerHTML = "<span style='color: red;'>"+ "Please enter a valid number</span>"
+	   //document.getElementById("errorMessage").innerHTML = (f + 'is not a number');
+	   //conosle.log()
+   }
+	  else { 
+	  document.getElementById("errorMessage").innerHTML = '';
+   }
+	
+	/// sends to  function
+	
+	if (c == "" || c == undefined) {
+	convertFtoC(f);
+	
+}
+	else if (c != null && c != undefined) {
+	//document.getElementById("fInput").value = 2;
+	convertCtoF(c);
+	/// weather picture
+ }
+ //if (f < 32){
+//	 document.getElementById("weatherImage").src = "cold.png";
+ //}
+//if (f > 31 && f < 50){
+//	 document.getElementById("weatherImage").src = "cool.png";
+ //}
+//if (f > 50) {
+//	 document.getElementById("weatherImage").src = "warm.png";
+//}
+
+ // error message
+ 
+ 
+	//console.log('Convert button was clicked!');
+	//console.log(e);
+	
+	/*
+	1. Figure out which input has a value
+	2. If Celcius, take that value and call convertCtoF. Else, call convertFtoC
+	3. With the converted value, update the other input --> the same process as 
+		clearing the input, except instead of null, assign the converted value
+	4. With the converted value, determine which image is appropriate
+	5. Set the src property with the image file name you derived in #4
+	
+	TO update the error message:
+	1. Get the element with the errorMessage ID
+	2. Assign a value (your error message) to that element's innerHTML property
+		i.e.: document.getElementById("errorMessage").innerHTML = 'HELLO THERE';
+		
+	   TO clear it, just assign an empty string
+		i.e.: document.getElementById("errorMessage").innerHTML = '';
+		
+	See:
+		MDN -> Mozilla Developer Network
+	*/
+}
+
+function clearfInput(e){
+	
+	//console.log('cInput input element was clicked or typed in');
+	//console.log(e);
+	 document.getElementById("fInput").value = null;
+}
+
+function clearcInput(e){
+	document.getElementById("cInput").value = null;
+	//console.log('cInput input element was clicked or typed in');
+	//console.log(e);
+	
+}
+
+
+function convertCtoF(degreesCelsius) {
+   degreesCelsius = parseFloat(degreesCelsius);
+  
+   degreesCelsius = degreesCelsius * 9/5;
+	degreesCelsius = degreesCelsius + 32;
+   document.getElementById("fInput").value = degreesCelsius;
+   
+   
+    if (degreesCelsius < 32){
+	 document.getElementById("weatherImage").src = "cold.png";
+ }
+ else if (degreesCelsius > 31 && degreesCelsius < 50){
+	 document.getElementById("weatherImage").src = "cool.png";
+ }
+ else if (degreesCelsius > 50){
+	 document.getElementById("weatherImage").src = "warm.png";
+ }
+  return degreesCelsius;
+  
+	
+   
+}
+
+function convertFtoC(degreesFahrenheit) {
+   degreesFahrenheit = parseFloat(degreesFahrenheit);
+    if (degreesFahrenheit < 32){
+	 document.getElementById("weatherImage").src = "cold.png";
+ }
+ else if (degreesFahrenheit > 31 && degreesFahrenheit < 50){
+	 document.getElementById("weatherImage").src = "cool.png";
+ }
+ else {
+	 document.getElementById("weatherImage").src = "warm.png";
+ }
+   
+   degreesFahrenheit = degreesFahrenheit - 32;
+   degreesFahrenheit = degreesFahrenheit * 5/9;
+   document.getElementById("cInput").value = degreesFahrenheit;
+   return degreesFahrenheit;
+  
+  
+   
+}
+function clear(e){
+	input.value = null;
+}
+
+//domLoaded();
+//convertCtoF(12);
+//convertFtoC(23);

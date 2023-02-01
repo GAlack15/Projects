@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Change Calculator</title>
+    <link rel="stylesheet" href="future_value.css">
+</head>
+<body>
+    <main>
+        <h1>Change Calculator</h1>
+        <div>
+            <label for="amount">Enter amount of Change due (0-99):</label>
+			
+            <input type="text" id="amount">
+			<input type="button" id="calculate" value="Calculate">
+            
+        </div>
+        <div>
+            <label for="quarters">Quarters:</label>
+            <input type="text" id="quarters" disabled>
+            
+        </div>
+        <div>
+            <label for="dimes">Dimes:</label>
+            <input type="text" id="dimes" disabled>
+            
+        </div>
+        <div>
+            <label for="nickels">Nickels:</label>
+            <input type="text" id="nickels" disabled>
+        </div>
+		<div>
+            <label for="pennies">Pennies:</label>
+            <input type="text" id="pennies" disabled>
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            
+           <!--<input type="button" id="clear" value="Clear"> -->
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="future_value.js"></script>
+</body>
+</html>

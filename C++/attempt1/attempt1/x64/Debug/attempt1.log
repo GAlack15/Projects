@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Gabe\Desktop\attempt1\attempt1\Source.cpp(11,14): warning C4326: return type of 'main' should be 'int' instead of 'float'
+C:\Users\Gabe\Desktop\attempt1\attempt1\Source.cpp(58,32): warning C4018: '<': signed/unsigned mismatch
+  attempt1.vcxproj -> C:\Users\Gabe\Desktop\attempt1\x64\Debug\attempt1.exe

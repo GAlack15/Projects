@@ -1,0 +1,59 @@
+//import java.util.Scanner;
+//import java.io.FileInputStream;
+//import java.io.PrintWriter;
+//import java.io.FileOutputStream;
+//import java.io.IOException;
+
+public class ProjectFileExample {
+    static String fileName = "myoutfile.csv";
+
+    public static void main(String[] args)  throws IOException{
+
+        Scanner scnr = new Scanner(System.in);
+
+        System.out.println("Enter 1 for write, 2 for read, 0 to exit");
+        int choice = scnr.nextInt();
+        while (choice != 0) {
+            if (choice==1) {
+                write();
+            }
+            if (choice==2) {
+                read();
+            }
+            System.out.println("Enter 1 for write, 2 for read, 0 to exit");
+            choice = scnr.nextInt();
+        }
+
+     }
+
+     static void write() throws IOException{
+        FileOutputStream fileStream = null;
+        PrintWriter outFS = null;
+
+        // Try to open file
+        fileStream = new FileOutputStream(fileName);
+        outFS = new PrintWriter(fileStream);
+        outFS.println("Roger Rabbit" + ","+ "25");
+        outFS.println("Minnie Mouse" + ","+ "23");
+        outFS.println("Bugs Bunny" + ","+ "30");
+        outFS.close();
+     }
+
+     static void read() throws IOException {
+        FileInputStream fileByteStream = new FileInputStream(fileName);
+        Scanner inFS = new Scanner(fileByteStream);
+        String inputString;
+        String inputArray[];
+        String name;
+        String age;
+        while (inFS.hasNextLine()) {
+            inputString = inFS.nextLine();
+            inputArray = inputString.split(",");
+            name=inputArray[0];
+            age=inputArray[1];
+            System.out.println("Character Name:"+ name + " Character Age:" + age );
+         }
+
+     }
+
+}
